@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&family=Noto+Serif+Ottoman+Siyaq&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+
+.title{
+  color: white; 
+  font-size: 1.7rem;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Serif Ottoman Siyaq', serif;
+}
+
+h1{
+  font-family: 'Aoboshi One', serif; 
+  font-size: 2rem;
+}
+
+h2{
+  font-family: 'Sora', sans-serif;
+}
+
+.pagecontainer{
+  background-color: #18181A;
+  height: 100vh;
+}
+
+.navbar{
+  background-color: #09090A;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.input{
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.githubbutton{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.githubbutton:hover{
+  background-color: rgba(128,128,128,0.2);
+}
+
+.inputcontainer{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.filecontainer{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
